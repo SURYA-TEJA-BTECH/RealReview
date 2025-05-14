@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: RealRevieww
+    
+    
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root  
+    url: jdbc:mysql:///realreview
+    
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 12MB
+      
+        
+          
+upload:
+ dir: D:\review    
+    
+      
+      
+      
